@@ -1,5 +1,6 @@
 # Deep Learning Based Optical Braille Recognition
 
+인하대학교 시각 컴퓨팅 및 학습 연구실에서 학부 연구생으로서
 2022.01 ~ 2022.06까지 진행한 **'딥러닝 기반 전이학습을 이용한 점자인식'** 프로젝트입니다.
 
 ---
@@ -13,16 +14,16 @@
 - 약 200장의 디지털 점자 데이터 셋
 - 520장의 실물 점자 데이터 셋
 - 카메라 거리와 점자의 개수, 위치 등 여러 변수 통제
-1. CLAHE, Erosion, Dilation 등을 적용해 이미지 전처리를 진행
+
+2. CLAHE, Erosion, Dilation 등을 적용해 이미지 전처리를 진행
 
 ![Untitled](image/Untitled%201.png)
 
-1. Pytorch에서 제공하는 모델인 Faster-RCNN-FPN-ResNet50 사용 (Pretrained = True)
+3. Pytorch에서 제공하는 모델인 Faster-RCNN-FPN-ResNet50 사용 (Pretrained = True)
 
-    
-    ![Untitled](image/Untitled%202.png)
-    
-2. $mAP_{50}$ 가 약 94%가 나오며 전처리를 이용해 많은 성능 향상을 이뤄냄
+![Untitled](image/Untitled%202.png)
+
+4. $mAP_{50}$ 가 약 94%가 나오며 전처리를 이용해 많은 성능 향상을 이뤄냄
 
 ![Untitled](image/Untitled%203.png)
 
